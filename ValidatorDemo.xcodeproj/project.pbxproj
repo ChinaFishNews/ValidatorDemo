@@ -14,6 +14,17 @@
 		73055F371B9AB0E300D8FBC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73055F361B9AB0E300D8FBC6 /* Images.xcassets */; };
 		73055F3A1B9AB0E300D8FBC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73055F381B9AB0E300D8FBC6 /* LaunchScreen.xib */; };
 		73055F461B9AB0E300D8FBC6 /* ValidatorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73055F451B9AB0E300D8FBC6 /* ValidatorDemoTests.m */; };
+		73055F671B9AB11600D8FBC6 /* AJWNumericValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 73055F511B9AB11600D8FBC6 /* AJWNumericValidator.m */; };
+		73055F681B9AB11600D8FBC6 /* AJWStringValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 73055F531B9AB11600D8FBC6 /* AJWStringValidator.m */; };
+		73055F691B9AB11600D8FBC6 /* AJWValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 73055F561B9AB11600D8FBC6 /* AJWValidator.m */; };
+		73055F6A1B9AB11600D8FBC6 /* AJWValidatorCustomRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 73055F581B9AB11600D8FBC6 /* AJWValidatorCustomRule.m */; };
+		73055F6B1B9AB11600D8FBC6 /* AJWValidatorEqualRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 73055F5A1B9AB11600D8FBC6 /* AJWValidatorEqualRule.m */; };
+		73055F6C1B9AB11600D8FBC6 /* AJWValidatorRangeRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 73055F5C1B9AB11600D8FBC6 /* AJWValidatorRangeRule.m */; };
+		73055F6D1B9AB11600D8FBC6 /* AJWValidatorRegularExpressionRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 73055F5E1B9AB11600D8FBC6 /* AJWValidatorRegularExpressionRule.m */; };
+		73055F6E1B9AB11600D8FBC6 /* AJWValidatorRemoteRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 73055F601B9AB11600D8FBC6 /* AJWValidatorRemoteRule.m */; };
+		73055F6F1B9AB11600D8FBC6 /* AJWValidatorRequiredRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 73055F621B9AB11600D8FBC6 /* AJWValidatorRequiredRule.m */; };
+		73055F701B9AB11600D8FBC6 /* AJWValidatorRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 73055F641B9AB11600D8FBC6 /* AJWValidatorRule.m */; };
+		73055F711B9AB11600D8FBC6 /* UIView+AJWValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 73055F661B9AB11600D8FBC6 /* UIView+AJWValidator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		73013FAE1B9ADB0E00CA268C /* ValidatorDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ValidatorDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		73055F261B9AB0E300D8FBC6 /* ValidatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValidatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73055F2A1B9AB0E300D8FBC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73055F2B1B9AB0E300D8FBC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +52,29 @@
 		73055F3F1B9AB0E300D8FBC6 /* ValidatorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidatorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73055F441B9AB0E300D8FBC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73055F451B9AB0E300D8FBC6 /* ValidatorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidatorDemoTests.m; sourceTree = "<group>"; };
+		73055F501B9AB11600D8FBC6 /* AJWNumericValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJWNumericValidator.h; sourceTree = "<group>"; };
+		73055F511B9AB11600D8FBC6 /* AJWNumericValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJWNumericValidator.m; sourceTree = "<group>"; };
+		73055F521B9AB11600D8FBC6 /* AJWStringValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJWStringValidator.h; sourceTree = "<group>"; };
+		73055F531B9AB11600D8FBC6 /* AJWStringValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJWStringValidator.m; sourceTree = "<group>"; };
+		73055F541B9AB11600D8FBC6 /* AJWValidator+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AJWValidator+Private.h"; sourceTree = "<group>"; };
+		73055F551B9AB11600D8FBC6 /* AJWValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJWValidator.h; sourceTree = "<group>"; };
+		73055F561B9AB11600D8FBC6 /* AJWValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJWValidator.m; sourceTree = "<group>"; };
+		73055F571B9AB11600D8FBC6 /* AJWValidatorCustomRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJWValidatorCustomRule.h; sourceTree = "<group>"; };
+		73055F581B9AB11600D8FBC6 /* AJWValidatorCustomRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJWValidatorCustomRule.m; sourceTree = "<group>"; };
+		73055F591B9AB11600D8FBC6 /* AJWValidatorEqualRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJWValidatorEqualRule.h; sourceTree = "<group>"; };
+		73055F5A1B9AB11600D8FBC6 /* AJWValidatorEqualRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJWValidatorEqualRule.m; sourceTree = "<group>"; };
+		73055F5B1B9AB11600D8FBC6 /* AJWValidatorRangeRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJWValidatorRangeRule.h; sourceTree = "<group>"; };
+		73055F5C1B9AB11600D8FBC6 /* AJWValidatorRangeRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJWValidatorRangeRule.m; sourceTree = "<group>"; };
+		73055F5D1B9AB11600D8FBC6 /* AJWValidatorRegularExpressionRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJWValidatorRegularExpressionRule.h; sourceTree = "<group>"; };
+		73055F5E1B9AB11600D8FBC6 /* AJWValidatorRegularExpressionRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJWValidatorRegularExpressionRule.m; sourceTree = "<group>"; };
+		73055F5F1B9AB11600D8FBC6 /* AJWValidatorRemoteRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJWValidatorRemoteRule.h; sourceTree = "<group>"; };
+		73055F601B9AB11600D8FBC6 /* AJWValidatorRemoteRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJWValidatorRemoteRule.m; sourceTree = "<group>"; };
+		73055F611B9AB11600D8FBC6 /* AJWValidatorRequiredRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJWValidatorRequiredRule.h; sourceTree = "<group>"; };
+		73055F621B9AB11600D8FBC6 /* AJWValidatorRequiredRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJWValidatorRequiredRule.m; sourceTree = "<group>"; };
+		73055F631B9AB11600D8FBC6 /* AJWValidatorRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJWValidatorRule.h; sourceTree = "<group>"; };
+		73055F641B9AB11600D8FBC6 /* AJWValidatorRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJWValidatorRule.m; sourceTree = "<group>"; };
+		73055F651B9AB11600D8FBC6 /* UIView+AJWValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AJWValidator.h"; sourceTree = "<group>"; };
+		73055F661B9AB11600D8FBC6 /* UIView+AJWValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AJWValidator.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +98,11 @@
 		73055F1D1B9AB0E300D8FBC6 = {
 			isa = PBXGroup;
 			children = (
+				73055F4F1B9AB11600D8FBC6 /* AJWValidator */,
 				73055F281B9AB0E300D8FBC6 /* ValidatorDemo */,
 				73055F421B9AB0E300D8FBC6 /* ValidatorDemoTests */,
 				73055F271B9AB0E300D8FBC6 /* Products */,
+				73013FAE1B9ADB0E00CA268C /* ValidatorDemo-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +154,36 @@
 				73055F441B9AB0E300D8FBC6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73055F4F1B9AB11600D8FBC6 /* AJWValidator */ = {
+			isa = PBXGroup;
+			children = (
+				73055F501B9AB11600D8FBC6 /* AJWNumericValidator.h */,
+				73055F511B9AB11600D8FBC6 /* AJWNumericValidator.m */,
+				73055F521B9AB11600D8FBC6 /* AJWStringValidator.h */,
+				73055F531B9AB11600D8FBC6 /* AJWStringValidator.m */,
+				73055F541B9AB11600D8FBC6 /* AJWValidator+Private.h */,
+				73055F551B9AB11600D8FBC6 /* AJWValidator.h */,
+				73055F561B9AB11600D8FBC6 /* AJWValidator.m */,
+				73055F571B9AB11600D8FBC6 /* AJWValidatorCustomRule.h */,
+				73055F581B9AB11600D8FBC6 /* AJWValidatorCustomRule.m */,
+				73055F591B9AB11600D8FBC6 /* AJWValidatorEqualRule.h */,
+				73055F5A1B9AB11600D8FBC6 /* AJWValidatorEqualRule.m */,
+				73055F5B1B9AB11600D8FBC6 /* AJWValidatorRangeRule.h */,
+				73055F5C1B9AB11600D8FBC6 /* AJWValidatorRangeRule.m */,
+				73055F5D1B9AB11600D8FBC6 /* AJWValidatorRegularExpressionRule.h */,
+				73055F5E1B9AB11600D8FBC6 /* AJWValidatorRegularExpressionRule.m */,
+				73055F5F1B9AB11600D8FBC6 /* AJWValidatorRemoteRule.h */,
+				73055F601B9AB11600D8FBC6 /* AJWValidatorRemoteRule.m */,
+				73055F611B9AB11600D8FBC6 /* AJWValidatorRequiredRule.h */,
+				73055F621B9AB11600D8FBC6 /* AJWValidatorRequiredRule.m */,
+				73055F631B9AB11600D8FBC6 /* AJWValidatorRule.h */,
+				73055F641B9AB11600D8FBC6 /* AJWValidatorRule.m */,
+				73055F651B9AB11600D8FBC6 /* UIView+AJWValidator.h */,
+				73055F661B9AB11600D8FBC6 /* UIView+AJWValidator.m */,
+			);
+			path = AJWValidator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +287,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				73055F321B9AB0E300D8FBC6 /* ViewController.m in Sources */,
+				73055F681B9AB11600D8FBC6 /* AJWStringValidator.m in Sources */,
+				73055F6B1B9AB11600D8FBC6 /* AJWValidatorEqualRule.m in Sources */,
+				73055F701B9AB11600D8FBC6 /* AJWValidatorRule.m in Sources */,
 				73055F2F1B9AB0E300D8FBC6 /* AppDelegate.m in Sources */,
+				73055F691B9AB11600D8FBC6 /* AJWValidator.m in Sources */,
+				73055F711B9AB11600D8FBC6 /* UIView+AJWValidator.m in Sources */,
+				73055F6C1B9AB11600D8FBC6 /* AJWValidatorRangeRule.m in Sources */,
+				73055F6F1B9AB11600D8FBC6 /* AJWValidatorRequiredRule.m in Sources */,
+				73055F6D1B9AB11600D8FBC6 /* AJWValidatorRegularExpressionRule.m in Sources */,
 				73055F2C1B9AB0E300D8FBC6 /* main.m in Sources */,
+				73055F6E1B9AB11600D8FBC6 /* AJWValidatorRemoteRule.m in Sources */,
+				73055F6A1B9AB11600D8FBC6 /* AJWValidatorCustomRule.m in Sources */,
+				73055F671B9AB11600D8FBC6 /* AJWNumericValidator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,9 +427,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ValidatorDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ValidatorDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -359,9 +440,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ValidatorDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ValidatorDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -418,6 +501,7 @@
 				73055F4B1B9AB0E300D8FBC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73055F4C1B9AB0E300D8FBC6 /* Build configuration list for PBXNativeTarget "ValidatorDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +510,7 @@
 				73055F4E1B9AB0E300D8FBC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
